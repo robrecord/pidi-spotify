@@ -12,7 +12,7 @@ from .fifo import FIFO
 from .st7789 import DisplayST7789
 
 FIFO_NAME = "/tmp/spotify_album_display"
-CACHE_DIR = "/home/pi/pidi-spotify/cache/"
+CACHE_DIR = "${HOME}/pidi-spotify/cache/"
 
 running = False
 
